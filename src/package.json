@@ -1,0 +1,20 @@
+{
+  "name": "desktop-live2d-chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^22.0.0"
+  },
+  "dependencies": {
+    "semantic-ui-container": "^2.5.0",
+    "semantic-ui-input": "^2.5.0"
+  }
+}

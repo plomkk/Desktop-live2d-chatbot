@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+        "target": "ES2016",
+        "outDir": "src/js",
+        "sourceMap": true,
+        "types": [
+            "node"
+        ],
+        "typeRoots": [
+            "src/node_modules/@types"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "electron": ["src/node_modules/electron"],
+            "mkdirp": ["src/node_modules/mkdirp"]
+        }         
+  }
+}
